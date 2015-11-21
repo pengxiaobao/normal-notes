@@ -17,7 +17,7 @@
 
 ##### Github配置
 
-> 将ssh key串添加到gitlab
+> 将ssh key串添加到github
 
 > 生成 github 的 ssh key
 
@@ -31,9 +31,9 @@ ssh-keygen -t rsa -C "xx@xx.com"
 cat  ~/.ssh/id_rsa.pub
 ```
 
-> 复制生成的key到gitlab
+> 复制生成的key到github
 
-> 在gitlab, 右上角 Profile Settings ->  Gitlab 的 SSH Keys 管理台中添加
+> 在github, 右上角 Profile Settings ->  Github 的 SSH Keys 管理台中添加
 
 ##### 安装node  tnpm
 
